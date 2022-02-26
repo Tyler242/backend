@@ -1,0 +1,35 @@
+# Implementation Notes
+# Returns the data for the portfolio home page.
+
+# Allowed methods: GET
+
+# Example request url:
+# http://localhost:8080/professional
+
+# Response type:
+# application/json
+
+# Example response:
+# {
+#   "professionalName": "Tyler Shellman",
+#   "nameLink": {
+#     "firstName": "Tyler",
+#     "url": "#"
+#   },
+#   "primaryDescription": "Software Engineering Student at BYU-Idaho",
+#   "workDescription1": "Digital Content Publisher for University Relations at BYU-Idaho.",
+#   "workDescription2": "Java Developer for BYU-Idaho Support Center.",
+#   "linkTitleText": "Connect With Me!",
+#   "linkedInLink": {
+#     "link": "https://www.linkedin.com/in/tylershellman/",
+#     "text": "LinkedIn"
+#   },
+#   "githubLink": {
+#     "link": "https://github.com/Tyler242",
+#     "text": "GitHub"
+#   },
+#   "base64Image": "/9j/4AAQSkZJRgABAgAA....",
+# }
+
+GET http://localhost:8080/professional
+###
